@@ -1,0 +1,18 @@
+env: RiftRunner
+
+env_args:
+  map_name: "RiftRunner"
+  n_agents: 3
+  length: 20 # weight of local reward
+  n_actions: 6 # max step of env
+  sight_range: 3
+  episode_limit: 200
+  
+
+test_greedy: True
+test_nepisode: 32
+test_interval: 10000
+log_interval: 10000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 2050000
